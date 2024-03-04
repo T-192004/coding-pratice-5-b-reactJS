@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffffff;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  text-align: center;
+  border: solid 2px #000000;
+  border-radius: 10px;
+  padding: 20px;
+}
+.dark {
+  background-color: #000000;
+  color: #ffffff;
+}
+.light {
+  background-color: #ffffff;
+}
+.heading {
+  font-size: 36px;
+  font-weight: bold;
+  font-family: 'roboto';
+}
+.btn{
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+}
